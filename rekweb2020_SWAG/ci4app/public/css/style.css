@@ -1,0 +1,21 @@
+.sampul {
+  width: 150px;
+}
+
+.table > tbody > tr > * {
+  vertical-align: middle;
+}
+nav ul {
+  position: absolute;
+  right: 8;
+  top: 0;
+  width: 80%;
+  height: 100vh;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(180,782,232);
+  z-index: -1;
+  transform: translateX(100%);
+  transition: all 1s;
+}
